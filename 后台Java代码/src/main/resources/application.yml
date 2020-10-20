@@ -1,0 +1,18 @@
+server:
+  port: 9999
+spring:
+  resources:
+    static-locations: classpath:/static/
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Wanghe1351387884?
+    url: jdbc:mysql://localhost:3306/bright-fresh-milk-system
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-value: 1
+      logic-not-delete-value: 0
