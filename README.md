@@ -1,5 +1,7 @@
 # bright-fresh-milk-system
 #### 使用Vue框架和Java-SpringBoot实现的一个基于现实问题的Web Demo
+网站网址:http://47.93.219.145:8080/bright-fresh-milk-system
+初始登录的用户名为admin  密码为123456
 
 前端代码下载解压后，进入文件夹执行：
 
