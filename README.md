@@ -7,7 +7,7 @@
 
 ①npm install
 
-@npm run serve
+②npm run serve
 
 即可开启前端服务，访问页面
 
