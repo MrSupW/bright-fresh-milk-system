@@ -9,8 +9,7 @@ Vue.use(ElementUI)
 import './assets/css/global.css'
 import axios from 'axios'
 //配置默认的请求路径
-axios.defaults.baseURL = "http://47.93.219.145:9999/"
-// axios.defaults.baseURL = "http://localhost:9999/"
+axios.defaults.baseURL = "http://localhost:9999/"
 Vue.prototype.$http = axios
 
 Vue.prototype.$message = Message
